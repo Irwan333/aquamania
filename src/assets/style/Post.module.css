@@ -1,0 +1,59 @@
+.Containercard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 35px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  transform: scale(1);
+  filter: grayscale(1);
+  transition: transform 0.2s cubic-bezier(0.65, 0.05, 0.36, 1),
+    box-shadow 0.2s cubic-bezier(0.65, 0.05, 0.36, 1),
+    filter 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.card:hover {
+  cursor: pointer;
+  filter: none;
+  transform: scale(1.15);
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.3);
+}
+.cardheader img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.cardbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.cardbody p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  transform: scalex(-1);
+}
+.userinfo h5 {
+  margin: 0;
+}
+.userinfo small {
+  color: #545d7a;
+}

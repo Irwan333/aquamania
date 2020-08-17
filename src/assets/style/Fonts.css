@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+.Poppins-Regular {
+  font-family: "Poppins-Regular";
+}
+
+.poppins-semibold {
+  font-family: "Poppins-Medium";
+}
+
+.Montserrat-Medium {
+  font-family: "Montserrat-Medium";
+}
+
+.Montserrat-SemiBold {
+  font-family: "Montserrat-SemiBold";
+}
+
+.OpenSans-Regular {
+  font-family: "OpenSans-Regular";
+}
+
+.OpenSans-Bold {
+  font-family: "OpenSans-Bold";
+  color: black !important;
+}
